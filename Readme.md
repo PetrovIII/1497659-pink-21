@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Илья Петров](https://up.htmlacademy.ru/adaptive/21/user/1497659).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Фролова](https://htmlacademy.ru/profile/id1043867).
 
 ---
 
