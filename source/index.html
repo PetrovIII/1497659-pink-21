@@ -71,10 +71,10 @@
               </li>
             </ul>
           </div>
-          <small class="download__legend">
+          <p class="download__legend">
             Доступно для iPhone, iPad, Android,<br>
             Windows Phone, OS X, Windows 8
-          </small>
+          </p>
         </div>
       </section>
 
@@ -147,11 +147,17 @@
             </blockquote>
             <!--как-то упустил момент, мы можем в фигме посмотреть текст других отзывов?-->
           </div>
-          <p class="reviews__toggles slider__toggles">
-            <button class="slider__toggle slider__toggle--current" type="button">1</button>
-            <button class="slider__toggle" type="button">2</button>
-            <button class="slider__toggle" type="button">3</button>
-          </p>
+          <ul class="reviews__toggles slider__toggles">
+            <li class="reviews__toggle-item">
+              <button class="slider__toggle slider__toggle--current" type="button">1</button>
+            </li>
+            <li class="reviews__toggle-item">
+              <button class="slider__toggle" type="button">2</button>
+            </li>
+            <li class="reviews__toggle-item">
+              <button class="slider__toggle" type="button">3</button>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -168,21 +174,21 @@
           </tr>
           <tr>
             <td>Розовый фильтр</td>
-            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="ДА"></td>
-            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="ДА"></td>
-            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="ДА"></td>
+            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Да"></td>
+            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Да"></td>
+            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Да"></td>
           </tr>
           <tr>
             <td>Смалики</td>
-            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="НЕТ"></td>
-            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="ДА"></td>
-            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="ДА"></td>
+            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Нет"></td>
+            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Да"></td>
+            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Да"></td>
           </tr>
           <tr>
             <td>Комментарии</td>
-            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="НЕТ"></td>
-            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="НЕТ"></td>
-            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="ДА"></td>
+            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Нет"></td>
+            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Нет"></td>
+            <td><img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Да"></td>
           </tr>
         </table>
 
@@ -200,27 +206,27 @@
           Остались вопросы?<br>
           Свяжитесь с нами!
         </h2>
-        <div class="page-footer__contacts contacts">
-          <div class="page-footer__phone">
-            <b class="contacts__title">Звоните:</b>
+        <ul class="page-footer__contacts contacts">
+          <li class="page-footer__phone">
+            <span class="contacts__title">Звоните:</span>
             <a class="contacts__phone" href="tel:+78125556666">
               <span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66
             </a>
-          </div>
-          <div class="page-footer__mail">
-            <b class="contacts__title">Пишите:</b>
+          </li>
+          <li class="page-footer__mail">
+            <span class="contacts__title">Пишите:</span>
             <p class="contacts__mail">
               <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
             </p>
-          </div>
-          <div class="page-footer__address">
-            <b class="contacts__title">Приезжайте в гости:</b>
+          </li>
+          <li class="page-footer__address">
+            <span class="contacts__title">Приезжайте в гости:</span>
             <p class="contacts__address">
               ул. Большая<br> Конюшенная, 19/8
             </p>
-          </div>
-          <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.60378725332!2d30.320858716279467!3d59.93871648187619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1607199060567!5m2!1sru!2sru" width="320" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
+          </li>
+        </ul>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.60378725332!2d30.320858716279467!3d59.93871648187619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1607199060567!5m2!1sru!2sru" width="320" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <div class="page-footer__social social">
           <h2 class="visually-hidden">Давайте дружить!</h2>
           <div class="page-footer__logo">
