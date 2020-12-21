@@ -18,7 +18,7 @@
                 Главная
               </a>
             </li>
-            <li class="site-list__item--active">
+            <li class="site-list__item site-list__item--active">
               <a href="catalog.html">
                 Фотографии
               </a>
@@ -43,93 +43,95 @@
 
       <section class="user-photo">
         <div class="user-photo__wrapper">
-          <header class="user-photo__header">
+          <div class="user-photo__header">
             <h2 class="user-photo__title">
               Фотографии пользователей
             </h2>
             <img src="https://via.placeholder.com/15x15" width="15" height="15" alt="Фон">
-          </header>
+          </div>
           <p class="user-photo__slogan">
             Взгляните на фотографии, которые<br>
             выкладывают наши пользователи!<br>
             Видите, как не хватает ваших?
           </p>
-          <div class="user-photo__item--daily">
-            <img class="user-photo__photo--panorama" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Панорама дня">
-            <span class="user-photo__panorama">панорама дня</span>
-            <cite class="user-photo-name">Анна</cite>
-            <span class="user-photo__post-time">(5 минут назад)</span>
-            <p class="user-photo__post-text">
-              Прыгать или нет? Напишите в<br>
-              комментарии свой совет и<br>
-              смотрите прямую трансляцию в<br>
-              перископе, задавайте свои вопросы!
-            </p>
-            <img class="user-photo__like" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Сердечко">
-            <span class="user-photo__like-count">нравится: 215</span>
-          </div>
-          <div class="user-photo__item">
-            <img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Автомобиль">
-            <cite class="user-photo-name">Левон</cite>
-            <span class="user-photo__post-time">(5 часов назад)</span>
-            <p class="user-photo__post-text">
-              Вчера он на луну летал, сегодня в<br>
-              руки к нам попал.
-            </p>
-            <img class="user-photo__like" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Сердечко">
-            <span class="user-photo__like-count">нравится: 356</span>
-          </div>
-          <div class="user-photo__item">
-            <img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Барабаны">
-            <cite class="user-photo-name">Антон</cite>
-            <span class="user-photo__post-time">(12 часов назад)</span>
-            <p class="user-photo__post-text">
-              Соседи будут рады!
-            </p>
-            <img class="user-photo__like" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Сердечко">
-            <span class="user-photo__like-count">нравится: 666</span>
-          </div>
-          <div class="user-photo__item">
-            <img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Потолок">
-            <cite class="user-photo-name">Борис</cite>
-            <span class="user-photo__post-time">(20 часов назад)</span>
-            <p class="user-photo__post-text">
-              Здесь могла быть ваша цитата о<br>
-              высоком и вечном.
-            </p>
-            <img class="user-photo__like" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Сердечко">
-            <span class="user-photo__like-count">нравится: 215</span>
-          </div>
-          <div class="user-photo__item">
-            <img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Арбузы да дыни :D">
-            <cite class="user-photo-name">Сергей</cite>
-            <span class="user-photo__post-time">(25 часов назад)</span>
-            <p class="user-photo__post-text">
-              Самая кубанская в мире!
-            </p>
-            <img class="user-photo__like" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Сердечко">
-            <span class="user-photo__like-count">нравится: 4</span>
-          </div>
-          <div class="user-photo__item">
-            <img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Ножки Максима">
-            <cite class="user-photo-name">Максим</cite>
-            <span class="user-photo__post-time">(40 часов назад)</span>
-            <p class="user-photo__post-text">
-              Где снег-то?
-            </p>
-            <img class="user-photo__like" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Сердечко">
-            <span class="user-photo__like-count">нравится: 150</span>
-          </div>
-          <div class="user-photo__item">
-            <img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Вид из окна самолета">
-            <cite class="user-photo-name">Надежда</cite>
-            <span class="user-photo__post-time">(45 часов назад)</span>
-            <p class="user-photo__post-text">
-              Всем GM и взаимные лайки!
-            </p>
-            <img class="user-photo__like" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Сердечко">
-            <span class="user-photo__like-count">нравится: 2560</span>
-          </div>
+          <ul class="user-photo__list">
+            <li class="user-photo__item user-photo__item--daily">
+              <a href="blank.html"><img class="user-photo__photo user-photo__photo--panorama" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Панорама дня"></a>
+              <span class="user-photo__panorama">панорама дня</span>
+              <cite class="user-photo-name">Анна</cite>
+              <span class="user-photo__post-time">(5 минут назад)</span>
+              <p class="user-photo__post-text">
+                Прыгать или нет? Напишите в<br>
+                комментарии свой совет и<br>
+                смотрите прямую трансляцию в<br>
+                перископе, задавайте свои вопросы!
+              </p>
+              <span class="user-photo__like">Сердечко"</span>
+              <span class="user-photo__like-count">нравится: 215</span>
+            </li>
+            <li class="user-photo__item">
+              <a href="blank.html"><img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Автомобиль"></a>
+              <cite class="user-photo-name">Левон</cite>
+              <span class="user-photo__post-time">(5 часов назад)</span>
+              <p class="user-photo__post-text">
+                Вчера он на луну летал, сегодня в<br>
+                руки к нам попал.
+              </p>
+              <span class="user-photo__like">Сердечко"</span>
+              <span class="user-photo__like-count">нравится: 356</span>
+            </li>
+            <li class="user-photo__item">
+              <a href="blank.html"><img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Барабаны"></a>
+              <cite class="user-photo-name">Антон</cite>
+              <span class="user-photo__post-time">(12 часов назад)</span>
+              <p class="user-photo__post-text">
+                Соседи будут рады!
+              </p>
+              <span class="user-photo__like">Сердечко"</span>
+              <span class="user-photo__like-count">нравится: 666</span>
+            </li>
+            <li class="user-photo__item">
+              <a href="blank.html"><img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Потолок"></a>
+              <cite class="user-photo-name">Борис</cite>
+              <span class="user-photo__post-time">(20 часов назад)</span>
+              <p class="user-photo__post-text">
+                Здесь могла быть ваша цитата о<br>
+                высоком и вечном.
+              </p>
+              <span class="user-photo__like">Сердечко</span>
+              <span class="user-photo__like-count">нравится: 215</span>
+            </li>
+            <li class="user-photo__item">
+              <a href="blank.html"><img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Арбузы да дыни :D"></a>
+              <cite class="user-photo-name">Сергей</cite>
+              <span class="user-photo__post-time">(25 часов назад)</span>
+              <p class="user-photo__post-text">
+                Самая кубанская в мире!
+              </p>
+              <span class="user-photo__like">Сердечко</span>
+              <span class="user-photo__like-count">нравится: 4</span>
+            </li>
+            <li class="user-photo__item">
+              <a href="blank.html"><img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Ножки Максима"></a>
+              <cite class="user-photo-name">Максим</cite>
+              <span class="user-photo__post-time">(40 часов назад)</span>
+              <p class="user-photo__post-text">
+                Где снег-то?
+              </p>
+              <span class="user-photo__like">Сердечко</span>
+              <span class="user-photo__like-count">нравится: 150</span>
+            </li>
+            <li class="user-photo__item">
+              <a href="blank.html"><img class="user-photo__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Вид из окна самолета"></a>
+              <cite class="user-photo-name">Надежда</cite>
+              <span class="user-photo__post-time">(45 часов назад)</span>
+              <p class="user-photo__post-text">
+                Всем GM и взаимные лайки!
+              </p>
+              <span class="user-photo__like">Сердечко"</span>
+              <span class="user-photo__like-count">нравится: 2560</span>
+            </li>
+          </ul>
           <p class="user-photo__conclusion">
             Затмите их всех!<br>
             Выкладывайте все, что накопилось в<br>
@@ -141,25 +143,26 @@
         <h2 class="visually-hidden">
           Запостить свою фотографию
         </h2>
-        <form class="post__form" action="https://echo.htmlacademy.ru" method="GET">
+        <div class="post__form">
           <img class="post__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Зимний пейзаж">
           <ul class="post__icon-list">
             <li class="post__icon-item">
-              <input class="post__photo" type="image" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Обрезать">
+              <img class="post__photo post__photo--active" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Обрезать">
             </li>
             <li class="post__icon-item">
-              <input class="post__photo" type="image" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Заливка">
+              <img class="post__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Заливка">
             </li>
             <li class="post__icon-item">
-              <input class="post__photo" type="image" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Контрастность">
+              <img class="post__photo" src="https://via.placeholder.com/15x15" width="15" height="15" alt="Контрастность">
             </li>
           </ul>
-          <!-- Слайдер сделать через input range или будем делать како-нибудь "велосипед" из спанов и дивов?-->
+          <!-- Слайдер сделать через input range или будем делать како-нибудь "велосипед" из спанов и дивов?
+          Ок, сделаем позже, если это позже будет :D в прошлый раз как-то вышло, надо посмотреть будет-->
           <div class="post__buttons-wrapper">
-            <input class="post__button button-submit" type="submit" value="Запостить">
-            <input class="post__button button-reset" type="reset" value="Отмена">
+            <button class="post__button button-submit">Запостить</button>
+            <button class="post__button button-reset">Отмена</button>
           </div>
-        </form>
+        </div>
       </section>
 
     <footer class="page-footer">
