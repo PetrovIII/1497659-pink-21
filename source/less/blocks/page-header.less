@@ -1,0 +1,30 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  background-color: @darknav;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: @white;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+@media (min-width: @desktop-width) {
+  display: flex;
+  flex-direction: row;
+  text-transform:  capitalize;
+  line-height: 18px;
+}
+
+.page-header__logo {
+  height: 69px;
+
+  @media (min-width: @tablet-width) {
+    height: 109px;
+  }
+
+  @media (min-width: @desktop-width) {
+    height: 110px;
+  }
+}
